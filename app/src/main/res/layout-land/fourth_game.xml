@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:screenOrientation="locked"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFBDB"
+    tools:context=".FirstSelectFigur">
+
+    <ImageView
+        android:id="@+id/imageViewpyramid"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/pyramid_512"
+        tools:layout_editor_absoluteY="566dp" />
+
+    <ImageView
+        android:id="@+id/imageViewsfera"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/sfera"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <ImageView
+        android:id="@+id/imageViewcube"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:adjustViewBounds="true"
+
+        app:srcCompat="@drawable/cube"
+        tools:layout_editor_absoluteY="258dp" />
+
+    <TextView
+        android:id="@+id/textready"
+        android:layout_width="678dp"
+        android:layout_height="218dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Be ready the game will start soon!"
+        android:textColor="#08648C"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="7dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

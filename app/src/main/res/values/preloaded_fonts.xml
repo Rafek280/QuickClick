@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/baloo_thambi</item>
+        <item>@font/coming_soon</item>
+        <item>@font/eater</item>
+        <item>@font/kristi</item>
+        <item>@font/nothing_you_could_do</item>
+        <item>@font/shadows_into_light_two</item>
+    </array>
+</resources>
